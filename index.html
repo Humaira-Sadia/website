@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="about.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="p-logo">
+            <h1>Portfo<span>lio.</span></h1>
+        </div>
+        <div class="menu-btn" id="bars">
+        </div>
+        <!-- <div class="menu-btn" id="bars">
+            <p><i class="fa-solid fa-bars"></i></p>
+        </div>
+        <div class="cancel-btn">
+            <p><i class="fa fa-xmark"></i></p>
+        </div> -->
+        <div class="menu">
+            <ul class="menu-list" id="list">
+                <li class="home"><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+                <li class="about"><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <!-- <li class="service"><a href="#service"><i class="fa fa-list"></i> Services</a></li> -->
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li class="contact1"><a href="#contact1"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="home-page" id="home">
+        <div class="body">
+
+            <div class="image-content">
+                <img src="bitmoji.png" height="350px" alt="hero image">
+            </div>
+
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Humaira Sadia,</div>
+                <div class="text-3">And I'm a <span class="typing">YouTuber</span></div>
+                <!-- <div class="text">
+                    <br><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor eius error amet in voluptatum fuga, illum pariatur! Beatae dolor numquam </p>
+                </div> -->
+                <div onclick="explore()" class="btn" id="explore_btn">
+                    <button class="btnn" type="button">Explore me</button>
+                </div><br><br>
+
+                <div class="contact-link" id="links">
+                    <li><a href="https://www.linkedin.com/in/humaira-sadia-908a6a237" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://github.com/Humaira-Sadia" id="github" class="fab fab fab fa-github"></a></li>
+                    <li><a href="#" class="fab fab fa-twitter"></a></li>
+                    <li><a href="https://www.facebook.com/ayra.ayra.7106" id="facebook" class="fab fab fa-facebook"></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UC1-0ZisirOaN5RvoxjznGmQ"
+                            class="fab fab fab fa-youtube"></a></li>
+                    <li><a href="https://t.me/Fun_With_Science" class="fab fab fab fab fa-telegram"></a></li>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about-page" id="about">
+        <div class="title" id="about-title">
+            <h1>About me</h1>
+            <!-- <h3>who i am</h3> -->
+        </div>
+        <div class="short">
+            <h2>Hii👋 I am Humaira Sadia and I'm a <span class="typing-2">YouTuber.</span></h2>
+            <br>
+            <p>
+                I am well versed in java, python, C, javascript and CSS. I enjoy working with numbers , collecting data, finding patterns and trends to derive strategic decisions with keen intellect mind.</p>
+        </div>
+        <div class="main-info">
+
+            <div class="left-block">
+                <div class="left-info">
+                    <div class="left">Birthday : <span> 09 Dec 2002</span></div>
+                    <div class="left">Age : <span> 19</span></div>
+                    <div class="left">Website : <span> humaira-sadia.github.io/website/</span></div>
+                    <div class="left">Email : <span> humaira.sadia.hossain@gmail.com</span></div>
+                </div>
+                <div class="right-info">
+                    <div class="right">Degree : <span> CSE</span></div>
+                    <div class="right">Phone no. : <span> +91 XXXXXXXXXX</span></div>
+                    <div class="right">city : <span> Kolkata</span></div>
+                    <div class="right">Freelance : <span> Available</span></div>
+                    <div class="right">YouTube : <span> https://www.youtube.com/channel/UC1-0ZisirOaN5RvoxjznGmQ</span></div>
+                </div>
+            </div>
+            <div class="right-block">
+                <div class="skills">
+                    <h5>CSS</h5>
+                    <div class="progress">
+                        <div class="progress-in" style="width: 70%;"></div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h5>Java</h5>
+                    <div class="progress">
+                        <div class="progress-in" style="width: 80%;"></div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h5>Html</h5>
+                    <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h5>JavaScript</h5>
+                    <div class="progress">
+                        <div class="progress-in" style="width: 60%;"></div>
+                        <div class="skill-percentage">60%</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn" id="about-button">
+            <button class="btnn" id="c_v" onclick="cv()" type="button">Download
+                    CV</button>
+            <button class="btnn" id="hire_me" onclick="hire()" type="button">Hire Me</button>
+        </div>
+        <div class="more-about">
+
+            <div class="left-block">
+                <div class="education">
+                    <h2>Education</h2>
+                </div>
+                <div class="box">
+                    <div class="horizontal"></div>
+                    <div class="container">
+                        <div class="calander">
+                            <i class="fa far fa-calendar-alt"> <span> 2013-2015</span></i>
+                            <div class="text1">
+                                <br>
+                                <h3>Bachelor of Technology(Btech) <br> in Computer Science And Engineering</h3>
+                                <br><h4>Aliah University</h4><br>
+                                <h5>Action Area II, Plot No.- IIA/27, Newtown, Kolkata, West Bengal 700156</h5><br>
+                                <p>with an overall 8.5 cgpa in each semester.</p>
+                            </div>
+                        </div>
+                        <div class="calander">
+                            <i class="fa far fa-calendar-alt"> <span> 2013-2015</span></i>
+                            <div class="text1">
+                                <br>
+                                <h3> Indian School Certificate (ISC).</h3>
+                                <br><h4>St Teresa's Secondary School</h4><br>
+                                <h5>Kidderpore, 72, Diamond Harbour Rd, Khidirpur, Kolkata, West Bengal 700023</h5><br>
+                                <p>Percentage : 91.25</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="right-block">
+                <div class="experience">
+                    <h2>Experience</h2>
+                </div>
+                <div class="box">
+                    <div class="horizontal"></div>
+                    <div class="container">
+                        <div class="calander">
+                            <i class="fa far fa-calendar-alt"> <span> 2013-2015</span></i>
+                            <div class="text1">
+                                <br>
+                                <h3>Masters in Btech</h3>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum beatae
+                                perferendis alias, minima obcaecati temporibus reiciendis pariatur animi, provident
+                                nesciunt
+                                ipsum voluptatem modi deleniti rem minus nihil officiis molestias.
+                            </div>
+                        </div>
+                        <div class="calander">
+                            <i class="fa far fa-calendar-alt"> <span> 2013-2015</span></i>
+                            <div class="text1">
+                                <br>
+                                <h3>Masters in Btech</h3>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum beatae
+                                perferendis alias, minima obcaecati temporibus reiciendis pariatur animi, provident
+                                nesciunt
+                                ipsum voluptatem modi deleniti rem minus nihil officiis molestias.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- <section class="service-page" id="service">
+        <div class="title" id="section-title">
+            <h1>Services</h1>
+        </div><br><br>
+        <div class="swiper mySwiper main-body1">
+            <div class="swiper-wrapper container">
+                <div class="swiper-slide web-devp">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>Web Design</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>lorem hkdAKSewjh hfergjjg </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide app-devp">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>App Design</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>lorem hkdAKSewjh hfergjjg </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide coding-devp">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>Codding</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>lorem hkdAKSewjh hfergjjg </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide app-devp">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>new Design</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>lorem hkdAKSewjh hfergjjg </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section> -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="title" id="portfolio-title">
+            <h1>Portfolio</h1>
+        </div><br><br>
+        <div class="swiper mySwiper main-body1">
+            <div class="swiper-wrapper container">
+                <div class="swiper-slide quadratic">
+                    <div class="boxe">
+
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>Quadratic<br>Equation
+
+                            </div>
+                            <div class="box-back">
+                                <p>Quadratic Equation Solver, <br> which provides quick and acurate answers.<br>
+                                <div onclick="see_quad()" class="btn" id="see1">
+                                    <button class="btnn" type="button">view</button>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide sudoku">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>Sudoku</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>The name “sudoku” is abbreviated from Japan which means “the numbers must remain single.”
+                                <div onclick="see_sudoku()" class="btn" id="see2">
+                                    <button class="btnn" type="button">view</button>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide math_sol">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>Math Equation <br> Solver.</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>lorem hkdAKSewjh hfergjjg.
+                                <div onclick="see_math()" class="btn" id="see3">
+                                    <button class="btnn" type="button">view</button>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide web-devp">
+                    <div class="boxe">
+                        <div class="box-content">
+                            <div class="box-front">
+                                <h2>Web Design</h2>
+                            </div>
+                            <div class="box-back">
+                                <p>lorem hkdAKSewjh hfergjjg.
+                                <div onclick="see_web()" class="btn" id="see4">
+                                    <button class="btnn" type="button">view</button>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="contact-page" id="contact1">
+        <div class="title">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="sub-title">
+            <h2>Have You Any Questions ?</h2>
+            <h3>I'M AT YOUR SERVICE</h3>
+        </div>
+
+        <div class="heading2">
+            <h2>SEND ME AN EMAIL</h2>
+            <h4>I'M VERY RESPONSIVE TO MESSAGES</h4>
+        </div>
+
+        <div class="contact-box">
+            <div class="msg-sec">
+                <div class="contact-info">
+                    <form name="submit-to-google-sheet" onsubmit="send_mail(); reset();return false; ">
+                        Name : <input type="text" name="Name" class="sectione " id="name" required><br>
+                        Email : <input type="email" name="Email" class="sectione" id="email" required><br>
+                        Phone no. : <input type="text" name="Number" class="sectione" id="phone" required><br>
+                        Subject : <input type="text" name="Subject" class="sectione" id="subject" required><br>
+                        Message :<input type="text" name="Message" class="sectione" id="message" required><br><br>
+                        <button class="btnn" type="submit">Send Message</button>
+                    </form>
+                    <br><span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <li>
+                <div class="fa fa-phone"></div>
+                <h4>call us on</h4>
+                <h5>+91 XXXXXXXXXX</h5>
+            </li>
+            <li>
+                <div class="fa fab fa-linkedin"></div>
+                <h4>linkedin</h4>
+                <h5>https://www.linkedin.com/in/<br>humaira-sadia-908a6a237/</h5>
+            </li>
+            <li>
+                <div class="fa fab fa-github"></div>
+                <h4>github</h4>
+                <h5>https://github.com/Humaira-Sadia</h5>
+            </li>
+            <li>
+                <div class="fa fa-envelope"></div>
+                <h4>Email</h4>
+                <h5>humaira.sadia.hossain@gmail.com</h5>
+            </li>
+            <li>
+                <div class="fa fa-globe"></div>
+                <h4>Website</h4>
+                <h5>humaira-sadia.github.io/website/</h5>
+            </li>
+        </div>
+        <div class="footer">
+            <div>
+                <h3> Created By <span> Humaira</span> | <i class="far fa-copyright"></i> 2022 all rights reserved.</h3>
+            </div>
+    </section>
+
+    
+</body>
+ <!-- Contact page email sening section -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMzEmFC079ocAs77s3pD3lQYogWBpi0Wg9kM7p04cpiWG0wujgkbPC1dtFa-JorrLF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script src="script.js"></script>
+
+</html>
