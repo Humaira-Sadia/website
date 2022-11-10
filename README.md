@@ -1,4 +1,5 @@
 # Personal-Portfolio-Website
 
-![portfolio](https://user-images.githubusercontent.com/107783584/201030166-89468872-27a8-4c6a-aaa9-c8acb58419df.PNG)
-![image](https://user-images.githubusercontent.com/107783584/201032440-42da187f-4acf-4285-b540-073a957de0b5.png)
+
+![20221110_133918_0000](https://user-images.githubusercontent.com/107783584/201036469-cb4df83e-4e53-44bf-bbd7-d355bda697d9.png)
+![por2](https://user-images.githubusercontent.com/107783584/201037039-31b074ad-4dd7-40f5-b9ce-22a0e7b30b7e.png)
